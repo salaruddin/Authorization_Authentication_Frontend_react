@@ -7,7 +7,7 @@ export interface IRegisterDto {
   address: string;
 }
 
-export interface ILogin {
+export interface ILoginDto {
   userName: string;
   password: string;
 }
