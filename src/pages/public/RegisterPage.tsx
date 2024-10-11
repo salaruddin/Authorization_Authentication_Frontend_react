@@ -1,7 +1,7 @@
 import * as Yup from 'yup';
 import { useForm } from 'react-hook-form';
 import { IRegisterDto } from '../../types/auth.types';
-import InputField from '../../components/general/inputField';
+import InputField from '../../components/general/InputField';
 import { yupResolver } from '@hookform/resolvers/yup';
 import useAuth from '../../hooks/useAuth.hook';
 import Button from '../../components/general/Button';
